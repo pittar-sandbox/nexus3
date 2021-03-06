@@ -10,7 +10,7 @@ Make sure you click on the **Get this image** tab to get instructions on how to 
 
 ## Build UBI-Based Nexus 3 from a Dockerfile
 
-Sonatype also provides a special `Dockerfile.rh.ubi` that can be used to build the image yourself with:
+Sonatype also provides a special `Dockerfile.rh.ubi` that can be used to build the image yourself with in their [official GitHub repository](https://github.com/sonatype/docker-nexus3).
 * [Buildah](https://buildah.io/)
 * [Podman](https://podman.io/)
 * [docker](https://www.docker.com/)
