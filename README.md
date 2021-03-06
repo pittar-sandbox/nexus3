@@ -29,7 +29,7 @@ To get this going on your cluster, login with `oc` and run:
 
 ```
 $ oc new-project nexus3
-$ oc apply -k /base
+$ oc apply -k base/
 ```
 
 It will take a few minutes to build the Nexus image.  Once Nexus itself starts up, it will take at least 2-3 mintutes to start as it completes some 1st time installation tasks.
