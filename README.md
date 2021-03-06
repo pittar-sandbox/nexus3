@@ -43,6 +43,6 @@ To find your default generated password, run the following command from your Nex
 ```
 // Find the Nexus pod name.
 $ oc get pods 
-$ oc exec <nexus pod name> -- cat /nexus-data/admin.password
+$ echo `oc exec <nexus pod name> -- cat /nexus-data/admin.password`
 ```
 
