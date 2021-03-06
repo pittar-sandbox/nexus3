@@ -11,9 +11,9 @@ Make sure you click on the **Get this image** tab to get instructions on how to 
 ## Build UBI-Based Nexus 3 from a Dockerfile
 
 Sonatype also provides a special `Dockerfile.rh.ubi` that can be used to build the image yourself with:
-* docker
-* [Buildah]()
-* [Podman}()
+* [Buildah](https://buildah.io/)
+* [Podman](https://podman.io/)
+* [docker](https://www.docker.com/)
 
 Or, build directly on OpenShift with a Docker build.
 
@@ -45,7 +45,4 @@ To find your default generated password, run the following command from your Nex
 $ oc get pods 
 $ oc exec <nexus pod name> -- cat /nexus-data/admin.password
 ```
-
-```
-
 
